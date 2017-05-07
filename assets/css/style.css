@@ -1,0 +1,585 @@
+header {
+  float:left;
+  color:white;     
+  background-color:#4aaaa5;
+  padding:20px;
+  font-size:200%; 
+  font-family: 'Georgia', Times, serif;  
+  font-weight:bold;
+}
+
+.header {
+  padding-left:150px;
+  padding-right:150px;
+}
+
+nav {
+  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  float:right;
+  margin-top:20px;
+}
+
+.about {
+  margin-top:30px;
+  color:#777777;
+  text-decoration:none;
+  padding-right:10px;
+}
+
+.port {
+  padding-left:10px;
+  margin-top: 30px;
+  color:#777777;
+  text-decoration:none;
+  border-left:1px solid lightgrey;
+}
+
+.contact {
+  padding-left:10px;
+  margin-left: 10px;
+  margin-top: 30px;
+  color:#777777;
+  text-decoration:none;
+  border-left:1px solid lightgrey;
+}
+
+.whole {
+  overflow:auto;
+  clear:both;
+  color:#777777;
+  border-top-style:solid;
+  border-top-width:2px;
+  border-top-color:#cccccc;
+  background-image:url(https://www.toptal.com/designers/subtlepatterns/patterns/hip-square.png);
+  padding-left:150px;
+  padding-right:150px;
+}
+
+p{
+  line-height: 200%;
+}
+
+.me{
+  color:#4aaaa5;
+  font-size:180%; 
+  font-family: 'Georgia', Times, Times New Roman, serif;  
+  font-weight:bold;
+}
+
+.leftside{
+  float:left;
+  padding:20px;
+  width: 610px;
+  margin-top:20px;
+  overflow:auto;
+  background-color: #ffffff;
+  margin-bottom:15px;
+  border-color:#dddddd;
+  border-style:solid;
+  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color:#777777;
+}
+
+.image {
+  float:left;
+  padding-right:15px;
+  width:280px;
+  height:200px;
+}
+
+.rightside{
+  margin-top:20px;
+  padding: 20px;
+  width: 230px; 
+  background-color: #ffffff;
+  float:right;
+  border-color:#dddddd;
+  border-style:solid;
+  font-family: 'Georgia', Times, serif;
+  font-size:130%;
+  color:#4aaaa5;
+  font-weight:bold;
+}
+
+.connect{
+  margin-top:15px;
+  padding:8px;
+}
+
+.social{
+  padding:3px;
+  width:60px; 
+  height:60px;
+}
+
+footer{
+  padding:20px;
+  clear:both;
+  text-align:center;
+  background-color:#666666;
+  border-color:teal;
+  color:lightgrey;
+  border-top:solid;
+  border-top-color:#4aaaa5;
+  border-width:5px;
+}
+
+.thumbnail {
+  float:left;
+  margin-bottom: 20px;
+  width:265px;
+  height:210px;
+}
+
+.spacing {
+  float: right;
+}
+
+.hangman {
+  position:absolute;
+  background-color:#4aaaa5;
+  top:164px;
+  left:20px;
+  width:265px;
+  padding:20 0 20 0;
+  text-align:center;
+}
+
+.rpg {
+  position:absolute;
+  background-color:#4aaaa5;
+  top:164px;
+  left:325px;
+  width:265px;
+  padding:20 0 20 0;
+  text-align:center;
+}
+.trivia {
+  position:absolute;
+  background-color:#4aaaa5;
+  top:395px;
+  left:20px;
+  width:265px;
+  padding:20 0 20 0;
+  text-align:center;
+}
+.rutgers {
+  position:absolute;
+  background-color:#4aaaa5;
+  top:395px;
+  left:325px;
+  width:265px;
+  padding:20 0 20 0;
+  text-align:center;
+}
+.rps {
+  position:absolute;
+  background-color:#4aaaa5;
+  top:625px;
+  left:20px;
+  width:265px;
+  padding:20 0 20 0;
+  text-align:center;
+}
+
+.relative {
+  position:relative;
+  color:white;
+  padding:20px;
+  font-family: 'Georgia', Times, serif;
+}
+
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+  border: 1px solid lightgrey;
+  width:100%;
+  height: 100px;
+  margin-top:8px;
+  margin-bottom:10px;
+}
+
+input[type=submit] {
+  padding:10px;
+  width:130px;
+  color: white;
+  border:0;
+  background-color:#4aaaa5;
+}
+
+
+@media screen and (max-width: 980px) {
+.header {
+  padding-left:50px;
+  padding-right:70px;
+}
+
+header {
+  padding-top:10px;
+  padding-bottom:10px;
+  text-align: center;
+  
+}
+
+
+.whole {
+  margin:0px;
+  padding:0px;
+  padding-left:50px;
+  padding-right:50px;
+}
+
+
+.leftside {
+  float:left;
+  margin-bottom:10px;
+  width:45%;
+}
+
+.image{
+  width:100%;
+  height:auto;
+}
+
+
+
+.rightside {
+  float:right;
+  margin-right:10px;
+  margin-top:20px;
+  width:30%;
+}
+
+.social {
+height:auto;
+width:20%;
+}
+
+
+.rpg {
+  position:absolute;
+  background-color:#4aaaa5;
+  top:395px;
+  left:20px;
+  width:265px;
+  padding:20 0 20 0;
+  text-align:center;
+}
+.trivia {
+  position:absolute;
+  background-color:#4aaaa5;
+  top:625px;
+  left:20px;
+  width:265px;
+  padding:20 0 20 0;
+  text-align:center;
+}
+.rutgers {
+  position:absolute;
+  background-color:#4aaaa5;
+  top:855px;
+  left:20px;
+  width:265px;
+  padding:20 0 20 0;
+  text-align:center;
+}
+.rps {
+  position:absolute;
+  background-color:#4aaaa5;
+  top:1086px;
+  left:20px;
+  width:265px;
+  padding:20 0 20 0;
+  text-align:center;
+}
+
+
+.rpggame {
+  float:left;
+}
+
+.widget {
+float:left;
+}
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+.header {
+  padding-left:15px;
+  padding-right:15px;
+}
+
+header {
+  padding-top:10px;
+  padding-bottom:10px;
+  text-align: center;
+  
+}
+
+
+.whole {
+  float:none;
+  margin:0px;
+  padding:0px;
+  width:100%;
+}
+
+
+.leftside {
+  float:none;
+  margin-left:10px;
+  margin-right:10px;
+  width: auto;
+  margin-bottom:10px;
+  overflow:auto;
+}
+
+form {
+  width:auto;
+}
+
+
+.image{
+  width:50%;
+  height:auto;
+  padding-right:10px;
+}
+
+.rightside {
+  float:none;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  margin-top:0px;
+  width:auto;
+  height:auto;
+}
+
+.social {
+height:auto;
+width:15%;
+}
+
+.hangman {
+  background-color:#4aaaa5;
+  top:164px;
+  left:20px;
+  width:265px;
+  padding:20 0 20 0;
+  text-align:center;
+}
+
+.rpg {
+  background-color:#4aaaa5;
+  top:164px;
+  left:325px;
+  width:265px;
+  padding:20 0 20 0;
+  text-align:center;
+}
+.trivia {
+  position:absolute;
+  background-color:#4aaaa5;
+  top:395px;
+  left:20px;
+  width:265px;
+  padding:20 0 20 0;
+  text-align:center;
+}
+.rutgers {
+  position:absolute;
+  background-color:#4aaaa5;
+  top:395px;
+  left:325px;
+  width:265px;
+  padding:20 0 20 0;
+  text-align:center;
+}
+.rps {
+  position:absolute;
+  background-color:#4aaaa5;
+  top:625px;
+  left:20px;
+  width:265px;
+  padding:20 0 20 0;
+  text-align:center;
+}
+
+
+.spacing {
+    float:none;
+}
+
+.rpggame {
+padding-left:40px;
+}
+
+.widget {
+padding-left:40px;
+}
+
+
+}
+
+@media screen and (max-width: 640px) {
+.header {
+  padding:0px;
+}
+
+header {
+  padding:0px;
+  padding-top:10px;
+  padding-bottom:10px;
+  text-align: center;
+  margin:0px;
+  float:none;
+}
+
+nav {
+  float:none;
+  text-align: center;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.whole {
+  float:none;
+  padding:0px;
+}
+
+
+.about {
+  padding-right:30px;
+  margin-top:30px;
+  color:#777777;
+  text-decoration:none;
+  padding-right:30px;
+}
+
+.port {
+  padding-left:30px;
+  padding-right:20px;
+  margin-top:30px;
+  color:#777777;
+  text-decoration:none;
+  border-left:1px solid lightgrey;
+}
+
+.contact {
+  padding-left:30px;
+  margin-top: 30px;
+  color:#777777;
+  text-decoration:none;
+  border-left:1px solid lightgrey;
+}
+
+.leftside {
+  clear:both;
+  margin-left:10px;
+  margin-right:10px;
+  width:auto;
+  margin-bottom:10px;
+}
+
+.image{
+  width:100%;
+  height:auto;
+}
+
+.rightside {
+  float:none;
+  margin-left:10px;
+  margin-right:10px;
+  width:auto;
+  margin-bottom:10px;
+  margin-top:0px;
+}
+
+.social {
+  height:auto;
+  width:20%;
+}
+
+
+.rpg {
+  background-color:#4aaaa5;
+  top:395px;
+  left:20px;
+  width:265px;
+  padding:20 0 20 0;
+  text-align:center;
+}
+.trivia {
+  background-color:#4aaaa5;
+  top:625px;
+  left:20px;
+  width:265px;
+  padding:20 0 20 0;
+  text-align:center;
+}
+.rutgers {
+  background-color:#4aaaa5;
+  top:855px;
+  left:20px;
+  width:265px;
+  padding:20 0 20 0;
+  text-align:center;
+}
+.rps {
+  background-color:#4aaaa5;
+  top:1086px;
+  left:20px;
+  width:265px;
+  padding:20 0 20 0;
+  text-align:center;
+}
+
+.rpggame {
+   position:relative;
+  top:0;
+  left:0;
+  padding:0px;
+}
+
+.triviagame {
+   position:relative;
+  top:0;
+  left:0;
+}
+
+.widget {
+   position:relative;
+  top:0;
+  left:0;
+
+  padding:0px;
+}
+
+.rock {
+   position:relative;
+  top:0;
+  left:0;
+}
+
+
+.spacing {
+  float:none;
+}
+
+
+}
+
+
+
